@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
-      home: const SplashScreen(),
+      home: LoginScreen(),
       routes: {
         '/admin': (context) => HalamanUtamaAdmin(),
         '/user': (context) => HalamanUtama(),
