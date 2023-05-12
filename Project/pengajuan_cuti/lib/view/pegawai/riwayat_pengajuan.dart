@@ -134,8 +134,9 @@ class _RiwayatPengajuanState extends State<RiwayatPengajuan> {
                                                     .showSnackBar(
                                                   SnackBar(
                                                       content: Text(
-                                                          '${item.alasan} Deleted')),
+                                                          '${item.nama} Deleted')),
                                                 );
+                                                Navigator.pop(context);
                                               },
                                               child: const Text("Delete"),
                                             ),

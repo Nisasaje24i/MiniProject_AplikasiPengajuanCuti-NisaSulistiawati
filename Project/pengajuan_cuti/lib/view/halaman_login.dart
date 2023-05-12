@@ -41,7 +41,7 @@ class _LoginScreenState extends State<LoginScreen> {
         context: context,
         builder: (context) => AlertDialog(
           title: const Text('Error'),
-          content: const Text('Username harus diisi'),
+          content: const Text('Username / Password harus diisi'),
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(context),

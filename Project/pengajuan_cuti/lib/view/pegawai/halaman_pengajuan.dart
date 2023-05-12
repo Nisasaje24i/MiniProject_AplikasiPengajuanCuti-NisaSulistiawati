@@ -102,7 +102,6 @@ class _FormPengajuanCutiState extends State<FormPengajuanCuti> {
                       borderSide: BorderSide(color: Colors.white),
                     ),
                   ),
-                  maxLines: null,
                   enabled: false,
                   keyboardType: TextInputType.multiline,
                   controller: _namaController,
